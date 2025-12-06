@@ -1,6 +1,6 @@
 {
   "videos": false,
-  "articles": true,
+  "blogs": true,
   "calculator": true,
   "quizzes": true,
   "scanner": true,
