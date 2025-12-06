@@ -1,0 +1,60 @@
+{
+  "viewId": "topic-mobility",
+  "layout": {
+    "type": "View",
+    "props": {
+      "className": "h-full w-full"
+    },
+    "children": [
+      {
+        "type": "Section",
+        "props": {
+          "title": "Vorgeschlagene Artikel",
+          "subtitle": "Diese Artikel haben uns begeistert"
+        }
+      },
+      {
+        "type": "AsyncBlogSlider",
+        "props": {
+          "blogIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      },
+      {
+        "type": "Spacer"
+      },
+      {
+        "type": "Section",
+        "props": {
+          "title": "Beliebte Quizze",
+          "subtitle": "Die besten Quizze zu Mobilitätsthemen"
+        }
+      },
+      {
+        "type": "AsyncQuizSlider",
+        "props": {
+          "quizIds": [
+            "4a0bc332-0898-43e0-bd64-af709b040f1f"
+          ]
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "link": "/videos/8847bfa5-4cfa-4d68-87c2-c571e50c0bc4"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "children": "Alle Quizze anzeigen"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

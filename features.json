@@ -1,0 +1,9 @@
+{
+  "videos": false,
+  "articles": true,
+  "calculator": true,
+  "quizzes": true,
+  "scanner": true,
+  "sensors": true,
+  "support": true
+}
