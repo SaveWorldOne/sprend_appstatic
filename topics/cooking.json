@@ -1,0 +1,18 @@
+{
+  "viewId": "topic-mobility",
+  "layout": {
+    "type": "View",
+    "props": {
+      "className": "h-full w-full"
+    },
+    "children": [
+      {
+        "type": "Section",
+        "props": {
+          "title": "In Arbeit",
+          "subtitle": "An dieser Themenwelt wird noch gearbeitet"
+        }
+      }
+    ]
+  }
+}

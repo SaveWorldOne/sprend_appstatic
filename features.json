@@ -1,5 +1,5 @@
 {
-  "videos": false,
+  "videos": true,
   "blogs": true,
   "calculator": true,
   "quizzes": true,
